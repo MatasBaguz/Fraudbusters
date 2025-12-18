@@ -122,32 +122,32 @@ arba išvilioti grynuosius pinigus.
 # 2. DAŽNIAUSI BŪDAI
 # --------------------------------------------------
 elif page == "Dažniausi būdai":
-    st.title("⚠️ Dažniausi sukčiavimo būdai")
+    st.title(" Dažniausi sukčiavimo būdai")
 
     st.markdown("""
-**1️⃣ Telefoninis sukčiavimas**  
+**1️1. Telefoninis sukčiavimas**  
 Skambinama apsimetus banko ar policijos darbuotoju. Prašoma „patikrinti sąskaitą“,
 „atnaujinti sutartį“ ar įdiegti nuotolinės prieigos programą (pvz., AnyDesk).
 
-**2️⃣ Kibernetinis sukčiavimas (phishing)**  
+**2️. Kibernetinis sukčiavimas (phishing)**  
 Siunčiami el. laiškai ar žinutės su nuorodomis į klastotas svetaines
 (*SEB*, *VMI*, *DPD*, *Ignitis*, *Omniva*).
 
-**3️⃣ Avansiniai mokėjimai**  
+**3️3. Avansiniai mokėjimai**  
 Fiktyvūs skelbimai apie butų nuomą, darbus ar pigias prekes.
 Pinigai sumokami iš anksto, tačiau prekės ar paslaugos nesuteikiamos.
 
-**4️⃣ Investiciniai sukčiavimai**  
+**4️4. Investiciniai sukčiavimai**  
 Siūlomos „garantuotos“ investicijos, dažnai susijusios su kriptovaliutomis.
 Aukos skatinamos pervesti lėšas ar imti paskolas.
 
-**5️⃣ Romantiniai ir socialiniai sukčiavimai**  
+**5️5. Romantiniai ir socialiniai sukčiavimai**  
 Užmezgamas ilgalaikis emocinis ryšys, po kurio prašoma pinigų
 „kritinei situacijai“ ar „pagalbai“.
 """)
 
     st.success(
-        "✅ Jei pasiūlymas atrodo per geras, kad būtų tikras – labai tikėtina, kad tai sukčiavimas."
+        " Jei pasiūlymas atrodo per geras, kad būtų tikras – labai tikėtina, kad tai sukčiavimas."
     )
 
 # --------------------------------------------------
@@ -190,7 +190,7 @@ elif page == "Greitas patikrinimas":
                 )
             else:
                 st.success(
-                    "✅ Šaltiniuose ši reikšmė neaptikta. "
+                    " Šaltiniuose ši reikšmė neaptikta. "
                     "Vis tiek būkite budrūs ir patikrinkite informaciją papildomai."
                 )
 
