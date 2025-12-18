@@ -19,7 +19,7 @@ LOGO_PATH = BASE_DIR / "assets" / "fraubusterslogo.png"
 # --------------------------------------------------
 # NAVIGACIJA
 # --------------------------------------------------
-st.sidebar.title("🔍 Navigacija")
+st.sidebar.title("Navigacija")
 page = st.sidebar.radio(
     "Pasirinkite puslapį:",
     [
