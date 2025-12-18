@@ -14,7 +14,7 @@ st.set_page_config(
 # FAILŲ KELIAI (GitHub / Streamlit Cloud friendly)
 # --------------------------------------------------
 BASE_DIR = Path(__file__).parent
-LOGO_PATH = BASE_DIR / "assets" / "fraudbusterslogo.png"
+LOGO_PATH = BASE_DIR / "assets" / "fraubusterslogo.png"
 
 # --------------------------------------------------
 # NAVIGACIJA
