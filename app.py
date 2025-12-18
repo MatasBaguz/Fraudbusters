@@ -32,7 +32,6 @@ page = st.sidebar.radio(
 
 # Sidebar branding
 st.sidebar.markdown("---")
-st.sidebar.image(str(LOGO_PATH), width=180)
 st.sidebar.caption("FraudBusters – prevencijos projektas")
 
 # --------------------------------------------------
@@ -84,7 +83,7 @@ BLACKLIST = {
 # 1. APIE SUKČIAVIMUS
 # --------------------------------------------------
 if page == "Apie sukčiavimus":
-    st.title("🛡️ Sukčiavimų prevencijos informacija")
+    st.title("Sukčiavimų prevencijos informacija")
 
     # Centruotas logotipas
     col1, col2, col3 = st.columns([1, 2, 1])
