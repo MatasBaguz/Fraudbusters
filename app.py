@@ -125,7 +125,7 @@ elif page == "Dažniausi būdai":
     st.title(" Dažniausi sukčiavimo būdai")
 
     st.markdown("""
-**1️1. Telefoninis sukčiavimas**  
+**1️ Telefoninis sukčiavimas**  
 Skambinama apsimetus banko ar policijos darbuotoju. Prašoma „patikrinti sąskaitą“,
 „atnaujinti sutartį“ ar įdiegti nuotolinės prieigos programą (pvz., AnyDesk).
 
@@ -133,15 +133,15 @@ Skambinama apsimetus banko ar policijos darbuotoju. Prašoma „patikrinti sąsk
 Siunčiami el. laiškai ar žinutės su nuorodomis į klastotas svetaines
 (*SEB*, *VMI*, *DPD*, *Ignitis*, *Omniva*).
 
-**3️3. Avansiniai mokėjimai**  
+**3️ Avansiniai mokėjimai**  
 Fiktyvūs skelbimai apie butų nuomą, darbus ar pigias prekes.
 Pinigai sumokami iš anksto, tačiau prekės ar paslaugos nesuteikiamos.
 
-**4️4. Investiciniai sukčiavimai**  
+**4️ Investiciniai sukčiavimai**  
 Siūlomos „garantuotos“ investicijos, dažnai susijusios su kriptovaliutomis.
 Aukos skatinamos pervesti lėšas ar imti paskolas.
 
-**5️5. Romantiniai ir socialiniai sukčiavimai**  
+**5️ Romantiniai ir socialiniai sukčiavimai**  
 Užmezgamas ilgalaikis emocinis ryšys, po kurio prašoma pinigų
 „kritinei situacijai“ ar „pagalbai“.
 """)
